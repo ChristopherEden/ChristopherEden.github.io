@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+       <title>Eden's Garden</title> 
+       
+       <style>
+            body {
+                background: url('http://vignette1.wikia.nocookie.net/marveldatabase/images/b/bc/Scarlet_Spider_Vol_2_1_Bagley_Variant_Textless.jpg/revision/latest?cb=20111207185824');
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            header {
+                font-size: 2.0em;
+                font-weight: bold;
+            }
+            [id=all-contents] {
+                max-width: 800px;
+                margin: auto;
+                border:10px dashed rgb(20, 100, 60);
+                border-radius: 20px;
+            }
+
+            /* navigation menu */
+            nav {
+                background: rgb(100, 80, 100);
+                margin: 0 auto;
+                display: flex;
+                padding: 50px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            /* main container area beneath menu */
+            main {
+                background: rgb(35, 90, 78);
+                display: flex;
+            }
+            [class=sidebar] {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            [class=sidebar] img {
+                width: 200px;
+                border-radius 100px
+            }
+            [class=content] {
+                flex: 1;
+                padding: 15px;
+            }
+            [class=interests] header {
+                font-size: 1.25em;
+            }
+        </style>
+    </head>
+    
+    <body>
+       <div id="all-contents">
+           <nav>
+               <header>Eden's Garden</header>
+               <ul>
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="portfolio.html">Portfolio</a></li>
+               </ul>
+           </nav>
+           
+           <main>
+              <div class="sidebar">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG1Ywu3lPMWHEd5iSmDjYJo2Bqcv_R7YP7CeNa5dh7BUtp3-Vf"></img>
+              </div>
+              
+              <div class="content">
+                  <header>Christopher Eden</header>
+                  <p>Novice Bookworm</p>
+                  
+                  <section class="interests">
+                      <header>Interests</header>
+                      <ul>
+                          <li>Reading</li>
+                          <li>Video Games</li>
+                          <li>Manga&Reading</li>
+                      </ul>
+                  </section>
+              </div>
+           </main>
+       </div> 
+    </body>
+</html>
